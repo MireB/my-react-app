@@ -10,7 +10,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open-source code,
+          Open source code {""}
         </a>
         by Mire Bosch. Icons by{" "}
         <a
