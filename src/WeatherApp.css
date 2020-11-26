@@ -1,4 +1,9 @@
 .container {
-  text-align: center;
-  padding-top: 30px;
+  display: block;
+  margin: auto;
+  max-width: 500px;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  margin-top: 35px;
 }

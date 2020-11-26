@@ -1,0 +1,12 @@
+.form-inline {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  margin-left: 20px;
+  margin-top: 7px;
+}
