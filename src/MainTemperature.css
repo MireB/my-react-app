@@ -1,0 +1,36 @@
+.MainTemperature {
+  margin-top: 2px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.temperature {
+  font-size: 110px;
+  color: whitesmoke;
+  font-family: sans-serif;
+  position: relative;
+  right: 10px;
+}
+
+.units {
+  font-size: 20px;
+  position: relative;
+  bottom: 55px;
+  right: 25px;
+}
+
+a {
+  color: thistle;
+}
+
+.icon {
+  position: relative;
+  top: 25px;
+  left: 30px;
+}
+
+.elements {
+  color: thistle;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
