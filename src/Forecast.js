@@ -39,7 +39,7 @@ function Forecast() {
             <ReactAnimatedWeather
               icon="RAIN"
               color="whitesmoke"
-              size={50}
+              size={55}
               animate={true}
             />
           </i>
@@ -49,7 +49,7 @@ function Forecast() {
             <ReactAnimatedWeather
               icon="RAIN"
               color="whitesmoke"
-              size={50}
+              size={55}
               animate={true}
             />
           </i>
@@ -57,9 +57,9 @@ function Forecast() {
         <div className="col-3 images">
           <i>
             <ReactAnimatedWeather
-              icon="PARTLY_CLOUDY_DAY"
+              icon="CLOUDY"
               color="whitesmoke"
-              size={50}
+              size={55}
               animate={true}
             />
           </i>
@@ -69,7 +69,7 @@ function Forecast() {
             <ReactAnimatedWeather
               icon="CLEAR_DAY"
               color="whitesmoke"
-              size={50}
+              size={55}
               animate={true}
             />
           </i>
