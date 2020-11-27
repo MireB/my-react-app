@@ -14,20 +14,38 @@ function Forecast() {
   return (
     <div className="Forecast">
       <div className="row">
-        <div className="col-3">
-          Fri
-          <span>
-            <ReactAnimatedWeather
-              icon={defaults.icon}
-              color={defaults.color}
-              size={defaults.size}
-              animate={defaults.animate}
-            />
-          </span>
-        </div>
+        <div className="col-3">Fri</div>
         <div className="col-3">Sat</div>
         <div className="col-3">Sun</div>
         <div className="col-3">Mon</div>
+      </div>
+      <div className="row">
+        <div className="col-3">
+          <span>16°C</span>
+        </div>
+        <div className="col-3">
+          <span>14°C</span>
+        </div>
+        <div className="col-3">
+          <span>15°C</span>
+        </div>
+        <div className="col-3">
+          <span>18°C</span>
+        </div>
+      </div>
+      <div className="row">
+        <div
+          className="col-3 images></div>
+        <div className="
+          col-3
+          images
+        ></div>
+        <div
+          className="col-3 images></div>
+        <div className="
+          col-3
+          images
+        ></div>
       </div>
     </div>
   );
