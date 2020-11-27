@@ -10,7 +10,7 @@ function SearchingTool() {
           type="search"
           className="form-control shadow-sm"
           placeholder="Enter a city"
-          size="13"
+          size="20"
         />
         <button type="submit" className="btn btn-primary mb-2 shadow-sm">
           Search
