@@ -19,7 +19,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Divyanshu Maithani
+          Divyanshu Maithani.
         </a>
       </small>
     </div>
