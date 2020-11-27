@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   background-color: white;
-  max-width: 800px;
+  max-width: 600px;
+  min-width: 600px;
   display: block;
   margin: auto;
 }
