@@ -4,13 +4,6 @@ import ReactAnimatedWeather from "react-animated-weather";
 import "./Forecast.css";
 
 function Forecast() {
-  const defaults = {
-    icon: "CLOUDY",
-    color: "white",
-    size: 60,
-    animate: true,
-  };
-
   return (
     <div className="Forecast">
       <div className="row">
