@@ -21,31 +21,59 @@ function Forecast() {
       </div>
       <div className="row">
         <div className="col-3">
-          <span>16°C</span>
+          <span className="temp">16°C</span>
         </div>
         <div className="col-3">
-          <span>14°C</span>
+          <span className="temp">14°C</span>
         </div>
         <div className="col-3">
-          <span>15°C</span>
+          <span className="temp">15°C</span>
         </div>
         <div className="col-3">
-          <span>18°C</span>
+          <span className="temp">18°C</span>
         </div>
       </div>
       <div className="row">
-        <div
-          className="col-3 images></div>
-        <div className="
-          col-3
-          images
-        ></div>
-        <div
-          className="col-3 images></div>
-        <div className="
-          col-3
-          images
-        ></div>
+        <div className="col-3 images">
+          <i>
+            <ReactAnimatedWeather
+              icon="RAIN"
+              color="whitesmoke"
+              size={50}
+              animate={true}
+            />
+          </i>
+        </div>
+        <div className="col-3 images">
+          <i>
+            <ReactAnimatedWeather
+              icon="RAIN"
+              color="whitesmoke"
+              size={50}
+              animate={true}
+            />
+          </i>
+        </div>
+        <div className="col-3 images">
+          <i>
+            <ReactAnimatedWeather
+              icon="PARTLY_CLOUDY_DAY"
+              color="whitesmoke"
+              size={50}
+              animate={true}
+            />
+          </i>
+        </div>
+        <div className="col-3 images">
+          <i>
+            <ReactAnimatedWeather
+              icon="CLEAR_DAY"
+              color="whitesmoke"
+              size={50}
+              animate={true}
+            />
+          </i>
+        </div>
       </div>
     </div>
   );
